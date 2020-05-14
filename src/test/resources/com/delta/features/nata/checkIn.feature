@@ -8,7 +8,7 @@ Then Click on check-in link
 #Scenario: Clicking on check-in button
 #Given I am on a main page
 #Then Click on check-in link
-
+@test
 Scenario: Choose each option in Find Your Trip By dropdown box
 Then Click on Find Your Trip By dropdown box
 And Click on each following option in Find Your Trip By dropdown box

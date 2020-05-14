@@ -10,12 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 				"json:target/Cucumber.json "
 		
 		},
-		
-		
-					
 		tags = "@test", // "@smoke and @test"
 		features = "src/test/resources/com/delta/features",
-		
 		glue = "com/delta/step_defenitions"
 //		,strict = true
 //   ,  dryRun = true
