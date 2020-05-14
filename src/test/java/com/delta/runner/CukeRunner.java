@@ -5,12 +5,12 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith (Cucumber.class)
 @CucumberOptions (
 		
-		plugin = {
+		plugin = {"pretty",
 				"html:target/built-in-html-report",
 				"json:target/Cucumber.json "
 		
 		},
-		tags = "@test", // "@smoke and @test"
+		tags ="@smoke or @regression",
 		features = "src/test/resources/com/delta/features",
 		glue = "com/delta/step_defenitions"
 //		,strict = true
